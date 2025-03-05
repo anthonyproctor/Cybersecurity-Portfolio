@@ -1,0 +1,58 @@
+# Data Classification Policy
+
+## 1. Purpose
+The purpose of this policy is to establish a standardized approach for classifying and handling data based on its sensitivity, ensuring compliance with security regulations such as ISO 27001 and NIST 800-53.
+
+## 2. Scope
+This policy applies to all employees, contractors, and third-party service providers who access, process, store, or transmit organizational data.
+
+## 3. Data Classification Levels
+Data shall be classified into four categories based on its confidentiality, integrity, and availability requirements:
+
+### **3.1 Public Data**
+- Definition: Information that is approved for public release and poses no risk if disclosed.
+- Examples: Marketing materials, website content, press releases.
+- Handling: No restrictions on storage, transmission, or access.
+
+### **3.2 Internal Use Only**
+- Definition: Non-public information intended for internal business operations.
+- Examples: Organizational policies, internal communications, non-sensitive reports.
+- Handling: Accessible only to employees and authorized personnel.
+
+### **3.3 Confidential Data**
+- Definition: Sensitive information that requires protection due to legal, regulatory, or business requirements.
+- Examples: Employee records, client information, intellectual property.
+- Handling:
+  - Encryption must be applied during storage and transmission.
+  - Access must be restricted to authorized personnel.
+  - Must not be shared externally without proper authorization.
+
+### **3.4 Restricted Data**
+- Definition: Highly sensitive data that, if disclosed, could cause severe financial, legal, or reputational damage.
+- Examples: Payment card data, health records, trade secrets.
+- Handling:
+  - Encryption is mandatory for storage and transmission.
+  - Access is limited to a need-to-know basis with multi-factor authentication (MFA).
+  - Data should not be stored on personal devices.
+
+## 4. Data Handling Requirements
+- **Storage:** Confidential and Restricted data must be stored in secured, access-controlled environments.
+- **Transmission:** Encryption is required for transmitting Confidential and Restricted data over public or untrusted networks.
+- **Disposal:** Confidential and Restricted data must be securely deleted or shredded when no longer needed.
+- **Access Control:** Role-based access control (RBAC) must be enforced to prevent unauthorized data access.
+
+## 5. Compliance & Monitoring
+- Regular audits shall be conducted to ensure compliance with classification policies.
+- Non-compliance incidents must be reported and addressed promptly.
+- Employees must receive training on data classification procedures annually.
+
+## 6. Roles & Responsibilities
+- **Data Owners:** Responsible for classifying and managing access to their respective data assets.
+- **IT Security Team:** Implements and enforces security controls for classified data.
+- **Employees:** Follow classification and handling guidelines for all organizational data.
+
+## 7. References
+- **ISO 27001 A.8:** Asset Management
+- **NIST 800-53 MP Family:** Media Protection
+- **CIS Controls:** Control 14 – Data Protection
+
