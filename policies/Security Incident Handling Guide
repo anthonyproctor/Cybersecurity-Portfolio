@@ -1,0 +1,75 @@
+Security Incident Handling Guide
+
+1. Purpose
+
+This guide provides step-by-step instructions for detecting, responding to, and mitigating security incidents to minimize organizational risk and disruption.
+
+2. Scope
+
+Applies to all employees, IT staff, and third-party service providers involved in monitoring, detecting, or responding to security incidents.
+
+3. Incident Handling Process
+
+Step 1: Identification
+
+Detect suspicious activities through system logs, IDS/IPS alerts, and user reports.
+
+Verify if the activity qualifies as a security incident.
+
+Categorize incidents (e.g., malware infection, unauthorized access, phishing attack, data breach).
+
+Step 2: Containment
+
+Short-term containment: Isolate affected systems to prevent further damage.
+
+Long-term containment: Apply patches, disable compromised accounts, or change credentials.
+
+Document containment actions taken.
+
+Step 3: Eradication
+
+Identify and remove malicious elements (e.g., malware, rogue processes, compromised credentials).
+
+Conduct forensic analysis to determine the root cause.
+
+Strengthen security controls to prevent recurrence.
+
+Step 4: Recovery
+
+Restore affected systems from clean backups.
+
+Test and verify system integrity before resuming operations.
+
+Monitor for any signs of recurring threats.
+
+Step 5: Post-Incident Review
+
+Document the incident, response actions, and lessons learned.
+
+Update security policies and procedures as needed.
+
+Conduct awareness training if human error contributed to the incident.
+
+4. Roles & Responsibilities
+
+Incident Response Team (IRT): Leads incident handling efforts and coordinates response.
+
+IT Security Team: Analyzes and mitigates technical aspects of the incident.
+
+Management: Makes high-level decisions on remediation and communication.
+
+Employees: Report incidents and follow security protocols.
+
+5. Compliance & Reporting
+
+All incidents must be logged and reviewed for compliance with ISO 27001, NIST, and relevant regulations.
+
+Reports of major incidents must be shared with stakeholders as per organizational policy.
+
+6. References
+
+NIST 800-61: Computer Security Incident Handling Guide
+
+ISO 27035: Incident Management Framework
+
+CIS Controls: Control 17 (Incident Response)
