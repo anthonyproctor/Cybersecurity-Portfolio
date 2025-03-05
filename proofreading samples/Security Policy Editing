@@ -1,0 +1,31 @@
+Before:
+Security Policy - Access Control
+General Policy:
+
+All employees must have access to the systems and applications they need to perform their job functions. Access to systems and data must be monitored, controlled, and reviewed regularly. Users must not share their credentials with anyone.
+Access Reviews:
+
+User access will be reviewed annually or when their role changes. Any employee who has terminated their employment will have their access removed immediately.
+Password Requirements:
+
+Users must set a password that is hard to guess and include numbers and letters. Passwords should not be shared or written down.
+After:
+Security Policy - Access Control
+General Policy:
+
+All employees are granted access to systems and applications based on the principle of least privilege, meaning they are provided only the minimum necessary access required to perform their job duties. Access to sensitive systems and data must be continuously monitored, controlled, and reviewed to ensure compliance with security standards. Users must not share or disclose their login credentials under any circumstances.
+Access Reviews:
+
+User access reviews will be conducted on a quarterly basis, as well as whenever an employee’s role or employment status changes. Any employee whose employment is terminated will have their access revoked immediately upon their departure. Access rights will also be promptly adjusted for employees who are reassigned or promoted.
+Password Requirements:
+
+Users must create strong passwords that comply with the organization’s complexity requirements, including a combination of at least 8 characters, upper- and lower-case letters, numbers, and special characters. Passwords must not be shared, written down, or stored in an unsecured manner. Employees are encouraged to use password managers for secure storage of credentials.
+Key Changes and Improvements:
+Clarity & Precision: The original policy statement regarding access control and password requirements was vague. In the revised version, it now clearly articulates "least privilege" and "minimum necessary access" for system usage, improving the clarity of access control rules.
+
+Increased Security: The after version specifies password complexity requirements and encourages the use of password managers, ensuring stronger security and compliance with best practices.
+
+Compliance & Monitoring: The after version introduces the idea of conducting quarterly reviews and specifying the immediate removal of access for terminated employees. This provides clearer guidelines for access reviews and helps mitigate risks associated with outdated access.
+
+Consistent Language: The after version eliminates ambiguous language, such as “hard to guess,” and replaces it with more specific and actionable terms like “minimum necessary access” and “strong passwords with complexity requirements.”
+
