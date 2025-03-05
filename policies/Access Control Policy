@@ -1,0 +1,52 @@
+# Access Control Policy
+
+## 1. Purpose
+This Access Control Policy establishes guidelines for granting, managing, and reviewing access to information systems and data to ensure compliance with ISO 27001 and NIST 800-53 security requirements.
+
+## 2. Scope
+This policy applies to all employees, contractors, and third-party service providers with access to the organization's information systems, networks, and data.
+
+## 3. Policy Statement
+The organization shall enforce role-based access control (RBAC) to ensure users only have the minimum necessary access rights required for their job functions.
+
+## 4. Access Control Principles
+### **4.1 Least Privilege**
+- Users shall be granted only the minimum permissions required to perform their job functions.
+- Privileged access shall be restricted to authorized personnel only.
+
+### **4.2 User Identification & Authentication**
+- All users must have unique user IDs.
+- Multi-factor authentication (MFA) must be enforced for accessing critical systems.
+- Default accounts and passwords must be changed before deployment.
+
+### **4.3 Role-Based Access Control (RBAC)**
+- Access rights shall be assigned based on job roles and responsibilities.
+- Roles must be reviewed quarterly to ensure alignment with business needs.
+
+### **4.4 Access Approval & Review**
+- All access requests must be reviewed and approved by the designated authority.
+- User access shall be reviewed quarterly and modified or revoked as necessary.
+
+### **4.5 Remote Access Control**
+- Remote access must be secured using VPN and MFA.
+- Remote connections must be logged and monitored for suspicious activity.
+
+### **4.6 Termination of Access**
+- User access must be revoked immediately upon termination or job role change.
+- IT must disable accounts within 24 hours of an employee’s departure.
+
+## 5. Compliance & Monitoring
+- Logs of access control activities must be maintained and reviewed periodically.
+- Non-compliance incidents must be reported and investigated.
+- Regular audits shall be conducted to ensure adherence to ISO 27001 A.9 and NIST 800-53 AC controls.
+
+## 6. Roles & Responsibilities
+- **IT Security Team:** Implements and enforces access control measures.
+- **HR & Management:** Notifies IT of personnel changes impacting access.
+- **Employees:** Follow access control guidelines and report anomalies.
+
+## 7. References
+- **ISO 27001 A.9:** Access Control
+- **NIST 800-53 AC Family:** Access Control
+- **CIS Controls:** Control 5 – Account Management
+
