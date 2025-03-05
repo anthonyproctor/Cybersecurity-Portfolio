@@ -1,0 +1,51 @@
+# Incident Response Workflow (Process Flow Diagram)
+
+## 1. Purpose
+This document outlines the key steps involved in responding to security incidents using a structured workflow. The diagram provides a visual representation of the process to aid in quick decision-making.
+
+## 2. Workflow Steps
+### **1. Detection & Identification**
+- Monitor security logs, IDS/IPS alerts, and user reports.
+- Verify if the activity qualifies as a security incident.
+- Categorize the incident (e.g., malware, unauthorized access, data breach).
+
+### **2. Containment**
+- Implement immediate containment measures (e.g., isolate affected systems, revoke credentials).
+- Determine if short-term or long-term containment is required.
+
+### **3. Eradication**
+- Identify and remove the root cause (e.g., malware removal, vulnerability patching).
+- Conduct forensic analysis if necessary.
+
+### **4. Recovery**
+- Restore affected systems from backups.
+- Verify system integrity before resuming operations.
+- Monitor for any recurrence of threats.
+
+### **5. Post-Incident Review**
+- Document incident details, response effectiveness, and lessons learned.
+- Update security policies and procedures based on findings.
+
+## 3. Diagram
+A process flow diagram should be created using tools like Visio, Lucidchart, or Draw.io to represent the above steps visually. The diagram should illustrate:
+1. **Incident Detection Sources** (e.g., security logs, SOC monitoring, employee reports)
+2. **Decision Points** (e.g., Is this a true incident? Does it require containment?)
+3. **Action Steps** (e.g., containment, eradication, system recovery)
+4. **Post-Incident Activities** (e.g., lessons learned, documentation, security updates)
+
+## 4. Roles & Responsibilities
+- **Security Analysts:** Identify and categorize incidents.
+- **Incident Response Team (IRT):** Leads containment and eradication efforts.
+- **IT Operations:** Assists in recovery and system restoration.
+- **Management:** Approves major response actions and reviews post-incident reports.
+
+## 5. Compliance & Best Practices
+- Ensure alignment with **NIST 800-61** (Incident Response Guide) and **ISO 27035**.
+- Maintain logs and audit trails for compliance reporting.
+- Regularly update and test the workflow to improve response efficiency.
+
+## 6. References
+- **NIST 800-61 Rev. 2:** Computer Security Incident Handling Guide
+- **ISO 27035:** Information Security Incident Management
+- **CIS Controls:** Control 17 (Incident Response)
+
