@@ -1,0 +1,61 @@
+User Access Review Process
+1. Purpose
+The purpose of this process is to periodically review and verify user access permissions to ensure compliance with security policies and mitigate the risk of unauthorized access to organizational systems, data, and resources. This process helps to maintain a principle of least privilege, ensuring users only have access to resources necessary for their job functions.
+
+2. Scope
+This process applies to all systems, applications, databases, and data repositories that store or manage sensitive data or provide access to critical organizational resources. It includes user roles, permissions, and access levels for all internal and external users, contractors, and vendors.
+
+3. Roles and Responsibilities
+Security/IT Team: Conducts access reviews, verifies roles, and removes unnecessary access.
+Managers: Ensure the accuracy of access reviews for their team members and confirm appropriate permissions.
+Data Owners: Ensure access to sensitive data is managed and reviewed regularly.
+HR/Operations: Provide timely updates regarding employee status changes (e.g., terminations, role changes).
+4. Review Process Steps
+Define Scope and Objectives
+
+Identify the systems, applications, and data requiring access control.
+Set objectives such as compliance checks, access appropriateness, and security risk minimization.
+Gather Access Data
+
+Collect access permissions from all systems.
+Include role assignments, specific access levels, and user activity logs.
+Assess User Access Permissions
+
+Review user roles to ensure access aligns with current job responsibilities.
+Identify users who no longer need access (e.g., terminated employees, role changes).
+Ensure that elevated privileges are justified and limited.
+Conduct the Review
+
+Schedule periodic access reviews (quarterly, bi-annually, or annually).
+Involve relevant stakeholders (managers, system admins, data owners) to confirm access appropriateness.
+Compare current access permissions to defined role-based access controls (RBAC) or security policies.
+Make Necessary Adjustments
+
+Adjust permissions for users who require role updates or no longer need access.
+Remove inactive users, restrict over-privileged accounts, and correct any discrepancies.
+Document the Process
+
+Maintain records of all user access reviews, including any changes made, the reasons for changes, and the participants in the review.
+Document sign-offs and approvals, and ensure records are retained for compliance and auditing purposes.
+Monitor and Follow Up
+
+Monitor systems continuously for unauthorized access or activity.
+Follow up with any user access adjustments to ensure they were implemented properly.
+Automation (Optional)
+
+Utilize automated tools to streamline access reviews, flag anomalies, and generate compliance reports.
+Automation can improve efficiency and help with ongoing monitoring and alerts.
+5. Frequency of Reviews
+Reviews should occur at least quarterly for critical systems and annually for less sensitive systems.
+Reviews should also be conducted whenever a user’s role changes or they leave the organization.
+6. Compliance and Auditing
+Regular audits will be conducted to ensure that the User Access Review Process is being followed.
+Compliance with regulatory standards such as GDPR, HIPAA, or SOX will be assessed during reviews.
+7. Exceptions
+Any exceptions to this policy must be documented and approved by the CISO or equivalent authority.
+
+8. References
+Access Control Policy
+Data Security Policy
+Role-Based Access Control (RBAC) Guidelines
+Compliance Guidelines for [Insert Relevant Regulations]
