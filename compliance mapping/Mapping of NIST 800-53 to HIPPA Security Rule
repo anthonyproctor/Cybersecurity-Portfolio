@@ -1,0 +1,28 @@
+Compliance Mapping: NIST 800-53 to HIPAA Security Rule
+1. Purpose
+This document outlines the mapping of controls from the NIST 800-53 framework to the HIPAA Security Rule. The goal is to provide a cross-reference of security requirements to assist organizations in meeting HIPAA compliance while adhering to best practices set forth by NIST.
+
+2. Scope
+This mapping applies to healthcare organizations that need to comply with both NIST 800-53 and HIPAA Security Rule, specifically regarding the Protection of Electronic Protected Health Information (ePHI). This mapping serves as a guide to align security controls across these frameworks.
+
+3. Mapping of NIST 800-53 to HIPAA Security Rule
+NIST 800-53 Control	HIPAA Security Rule Requirement	Description/Mapping
+AC-2: Account Management	164.308(a)(3)(i) – Access Control	Requires that organizations control access to ePHI, ensuring proper account management practices (e.g., user authentication, termination, and role-based access).
+AC-6: Least Privilege	164.308(a)(4) – Information Access Management	Ensures that access to ePHI is based on the minimum necessary standard, restricting access to only those with a valid need to know.
+AU-2: Audit Events	164.312(b) – Audit Controls	Requires organizations to implement audit controls to log and monitor access to ePHI, maintaining logs of activities that could be used to detect security incidents.
+IA-2: Identification and Authentication	164.312(d) – Person or Entity Authentication	NIST’s requirement to ensure accurate identification and authentication aligns with HIPAA's need for verifying the identity of users who access ePHI.
+IR-4: Incident Handling	164.308(a)(6)(i) – Security Incident Procedures	NIST's incident handling process maps to HIPAA’s requirement to establish procedures for responding to and reporting security incidents involving ePHI.
+MP-5: Media Transport Protection	164.310(d)(1) – Movement of Electronic Protected Health Information	Ensures that ePHI is protected during transmission across networks, preventing unauthorized access or exposure of ePHI in transit.
+PE-3: Physical Access Control	164.310(a)(1) – Facility Access Controls	Protects the physical access to systems storing ePHI, requiring organizations to implement safeguards such as locking server rooms and controlling access to facilities.
+SA-4: Security Engineering	164.306(a)(1) – Security Standards	Ensures that system security is engineered into information systems handling ePHI, applying both administrative and technical safeguards to protect data integrity and confidentiality.
+SC-12: Cryptographic Key Establishment and Management	164.312(a)(2)(iv) – Transmission Security	Focuses on cryptographic protections, ensuring that ePHI is protected during transmission across open networks via encryption and other technical controls.
+SI-2: Flaw Remediation	164.308(a)(8) – Evaluation and Risk Analysis	Requires that organizations regularly assess their security environment and remediate any identified security vulnerabilities that could impact the confidentiality and integrity of ePHI.
+4. Key Considerations
+Access Control: Both frameworks emphasize controlling and managing access to ePHI. This includes ensuring user authentication, authorization, and role-based access.
+Audit and Monitoring: Both NIST and HIPAA require mechanisms to track access and modification of ePHI to support incident detection and response.
+Data Integrity: Protecting the integrity and confidentiality of ePHI is central to both sets of controls. NIST's emphasis on cryptographic protections (SC-12) directly supports HIPAA's transmission security requirements (164.312(a)(2)(iv)).
+Incident Response: Both NIST and HIPAA require organizations to have policies in place for handling security incidents, including reporting and responding promptly to protect ePHI.
+Risk Analysis: Regular risk assessments are critical in both frameworks to ensure potential threats and vulnerabilities to ePHI are identified and mitigated.
+5. Conclusion
+This mapping helps align the NIST 800-53 security controls with the HIPAA Security Rule requirements, providing a structured approach for healthcare organizations to meet security and compliance objectives. By implementing the relevant controls, organizations can ensure they protect ePHI while adhering to industry standards and regulatory requirements.
+
